@@ -1,0 +1,41 @@
+for _,v in pairs(workspace:GetDescendants()) do
+if v.ClassName == "Part"
+or v.ClassName == "SpawnLocation"
+or v.ClassName == "WedgePart"
+or v.ClassName == "Terrain"
+or v.ClassName == "MeshPart" then
+v.BrickColor = BrickColor.new(155, 155, 155)
+v.Material = "Plastic"
+end
+end
+
+for _,v in pairs(workspace:GetDescendants()) do
+if v.ClassName == "Decal"
+or v.ClassName == "Texture" then
+v:Destroy()
+end
+end
+
+
+
+
+game:GetService("Lighting").Bloom:Destroy()
+game:GetService("Lighting").DayColors:Destroy()
+game:GetService("Lighting").InventoryBlur:Destroy()
+game:GetService("Lighting").NightColors:Destroy()
+game:GetService("Lighting").Colors:Destroy()
+game:GetService("Lighting").SunRays:Destroy()
+game:GetService("Lighting").UnderWaterBlur:Destroy()
+game:GetService("Lighting").SettingsBlur:Destroy()
+game:GetService("Lighting").SunRaysAlwaysOn:Destroy()
+game:GetService("Lighting").SunRaysAlwaysOnNight:Destroy()
+game:GetService("Lighting").Blur:Destroy()
+game:GetService("Lighting").DisabledSkyBox:Destroy()
+game:GetService("Lighting").ColorCorrection:Destroy()
+game:GetService("Lighting").SunRays:Destroy()
+game:GetService("Lighting").TRUEColorCorrection:Destroy()
+game:GetService("Lighting").ColorCorrection:Destroy()
+
+
+
+print("Reduced Lag!")
