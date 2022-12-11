@@ -22,6 +22,11 @@ if upperTorso then upperTorso.Transparency = 1 end
 lowerTorso = character:FindFirstChild("LowerTorso")
 if lowerTorso then lowerTorso.Transparency = 1 end
 
+RightHand = character:FindFirstChild("RightHand")
+if RightHand then RightHand.Transparency = 1 end
+LeftHand = character:FindFirstChild("LeftHand")
+if LeftHand then LeftHand.Transparency = 1 end
+
 leftUpperArm = character:FindFirstChild("LeftUpperArm")
 if leftUpperArm then leftUpperArm.Transparency = 1 end
 leftLowerArm = character:FindFirstChild("LeftLowerArm")
