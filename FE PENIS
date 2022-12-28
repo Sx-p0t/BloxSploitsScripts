@@ -16,7 +16,7 @@ game["Run Service"].RenderStepped:connect(function()
    setsimulationradius(math.huge*math.huge,math.huge*math.huge)
 end)
  
-print("Loaded Network Ownership Bypass!")
+print("if you see this you're gay")
  
 --[[
 IronBrew:tm: obfuscation; Version 2.7.2
