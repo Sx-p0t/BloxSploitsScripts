@@ -134,7 +134,7 @@ end
 gun.Transparency = reanimating and 1 or 0
 bullet.Transparency = reanimating and 1 or 0
 local gunatt = reanimating and _G:Get("Army AR-L 10 [Back]")
-local bulletatt = reanimating and _G:Get("SnowFriend")
+local bulletatt = reanimating and _G:Get("") -- SnowFriend
 local hrpatt = reanimating and _G:Get("HumanoidRootPart")
 mainloop = rstepped:Connect(function()
 	if _G.e ~= good or not char or not char.Parent then
@@ -253,7 +253,7 @@ if reanimating then
 	gunatt.Orientation = Vector3.new(0,0,-40)
 	gunatt.Parent = gun
 	pcall(function()
-		_G:Block("SnowFriend")
+		_G:Block("") -- SnowFriend
 	end)
 	bulletatt.Position = Vector3.new(-.75,-1.1,0)
 	bulletatt.Orientation = Vector3.new(0,0,0)
@@ -261,7 +261,7 @@ if reanimating then
 	hrpatt.Position = Vector3.new()
 	hrpatt.Orientation = Vector3.new()
 	hrpatt.Parent = mousepart
-	_G:GetCharPart("SnowFriend").Handle.CanQuery = false
+	_G:GetCharPart("").Handle.CanQuery = false -- SnowFriend
 	realhrp.CanQuery = false
 	mousepart.CanQuery = false
 	bullet.CanQuery = false
